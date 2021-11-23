@@ -22,7 +22,7 @@ import legal from './legal'
 // Common
 import seo from './common/seo'
 import image from './common/image'
-import blockQuote from './common/blockquote'
+import blockQuote from './common/blockQuote'
 import hero from './common/hero'
 
 // Then we give our schema to the builder and provide the result to Sanity
