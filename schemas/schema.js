@@ -12,6 +12,7 @@ import singletonContact from './singletonContact'
 
 // Documents
 import press from './press'
+import categories from './categories'
 import legal from './legal'
 // import music from './music'
 // import musicVideos from './musicVideos'
@@ -38,6 +39,7 @@ export default createSchema({
     singletonPersonalLife,
     singletonContact,
     press,
+    categories,
     legal,
     seo,
     image,

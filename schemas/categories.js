@@ -1,8 +1,8 @@
 import slugify from '../utils/slugify'
 
 export default {
-  title: 'Press',
-  name: 'press',
+  title: 'Press Categories',
+  name: 'categories',
   type: 'document',
   fields: [
     {
@@ -10,12 +10,6 @@ export default {
       name: 'title',
       type: 'string',
       validation: Rule => Rule.required()
-    },
-    {
-      title: 'Category',
-      name: 'category',
-      type: 'reference',
-      to: [{type: 'categories'}]
     },
     {
       name: 'slug',
@@ -28,11 +22,6 @@ export default {
         slugify: title => slugify(title)
       },
       validation: Rule => Rule.required()
-    },
-    {
-      title: 'SEO / Share Settings',
-      name: 'seo',
-      type: 'seo'
     }
   ],
   preview: {
