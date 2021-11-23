@@ -36,7 +36,8 @@ export default {
       title: 'Hero Text',
       name: 'heroText',
       description: "The block of supporting text in the hero",
-      type: 'text',
+      type: 'array', 
+      of: [{type: 'block'}]
     },
     {
       title: 'Supporting Content Image',
