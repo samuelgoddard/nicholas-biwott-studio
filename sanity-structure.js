@@ -54,6 +54,6 @@ export default () =>
       // S.listItem().title('Music Videos').child(S.documentTypeList('musicVideos').title('Music Videos')).icon(FiVideo),
       // S.divider(),
       // S.listItem().title('News Articles').child(S.documentTypeList('news').title('News Articles')).icon(FiPenTool),
-      // S.divider(),
-      // S.listItem().title('Contact').child(S.editor().id('contact').schemaType('contact').documentId('singleton-contact')).icon(FiMail),
+      S.divider(),
+      S.listItem().title('Contact').child(S.editor().id('contact').schemaType('contact').documentId('singleton-contact')).icon(FiMail),
     ]);

@@ -8,7 +8,7 @@ import singletonBusinessman from './singletonBusinessman'
 import singletonPublicServant from './singletonPublicServant'
 import singletonPhilanthropist from './singletonPhilanthropist'
 import singletonPersonalLife from './singletonPersonalLife'
-// import singletonContact from './singletonContact'
+import singletonContact from './singletonContact'
 
 // Documents
 import press from './press'
@@ -36,6 +36,7 @@ export default createSchema({
     singletonPublicServant,
     singletonPhilanthropist,
     singletonPersonalLife,
+    singletonContact,
     press,
     legal,
     seo,
