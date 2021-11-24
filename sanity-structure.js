@@ -48,5 +48,7 @@ export default () =>
       // S.divider(),
       // S.listItem().title('News Articles').child(S.documentTypeList('news').title('News Articles')).icon(FiPenTool),
       S.divider(),
+      S.listItem().title('Quotes').child(S.editor().id('quotes').schemaType('quotes').documentId('singleton-quotes').views(getPreview('quotes'))),
+      S.divider(),
       S.listItem().title('Contact').child(S.editor().id('contact').schemaType('contact').documentId('singleton-contact')),
     ]);

@@ -18,6 +18,23 @@ export default {
       to: [{type: 'categories'}]
     },
     {
+      title: 'Post Date',
+      name: 'postDate',
+      type: 'date',
+      options: {
+        dateFormat: 'DD-MM-YYYY',
+        calendarTodayLabel: 'Today'
+      },
+      validation: Rule => Rule.required()
+    },
+    {
+      title: 'Content',
+      name: 'content',
+      type: 'array', 
+      of: [{type: 'block'}],
+      validation: Rule => Rule.required()
+    },
+    {
       name: 'slug',
       type: 'slug',
       title: 'Slug',
