@@ -1,5 +1,11 @@
 const globalSlugs = {
-  home: '/'
+  home: '/',
+  earlyLife: '/early-life',
+  businessman: '/businessman',
+  philanthropist: '/philanthropist',
+  personalLife: '/personal-life',
+  press: '/press',
+  quotes: '/quotes',
 }
 
 const secret = process.env.SANITY_STUDIO_SANITY_PREVIEW_SECRET
