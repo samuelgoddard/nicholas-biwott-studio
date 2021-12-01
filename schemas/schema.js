@@ -10,6 +10,7 @@ import singletonPhilanthropist from './singletonPhilanthropist'
 import singletonPersonalLife from './singletonPersonalLife'
 import singletonQuotes from './singletonQuotes'
 import singletonContact from './singletonContact'
+import singletonTimeline from './singletonTimeline'
 
 // Documents
 import press from './press'
@@ -26,6 +27,7 @@ import seo from './common/seo'
 import image from './common/image'
 import blockQuote from './common/blockQuote'
 import hero from './common/hero'
+import timelineItem from './common/timelineItem'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -40,11 +42,13 @@ export default createSchema({
     singletonPersonalLife,
     singletonQuotes,
     singletonContact,
+    singletonTimeline,
     press,
     categories,
     legal,
     seo,
     image,
+    timelineItem,
     blockQuote,
     hero
   ]),

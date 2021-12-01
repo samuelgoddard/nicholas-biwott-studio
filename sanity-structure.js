@@ -38,6 +38,8 @@ export default () =>
       S.divider(),
       S.listItem().title('Personal Life').child(S.editor().id('personalLife').schemaType('personalLife').documentId('singleton-personalLife').views(getPreview('personalLife'))),
       S.divider(),
+      S.listItem().title('Timeline').child(S.editor().id('timeline').schemaType('timeline').documentId('singleton-timeline').views(getPreview('timeline'))),
+      S.divider(),
       S.listItem().title('Press').child(S.documentTypeList('press').title('Press')),
       S.divider(),
       S.listItem().title('Press Categories').child(S.documentTypeList('categories').title('Press Categories')),
