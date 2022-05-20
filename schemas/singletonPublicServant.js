@@ -238,6 +238,12 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: 'Nineties: Section 5 Image',
+      name: 'ninetiesSection5Image',
+      type: 'defaultImage',
+      validation: Rule => Rule.required()
+    },
+    {
       title: 'Nineties: Section 6 Quote',
       name: 'ninetiesSection6Quote',
       type: 'blockquote',
