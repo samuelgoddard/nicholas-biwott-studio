@@ -90,6 +90,12 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: 'Seventies: Section 1 Quote',
+      name: 'seventiesSection1Quote',
+      type: 'blockquote',
+      validation: Rule => Rule.required()
+    },
+    {
       title: 'Seventies: Section 2 Heading',
       name: 'seventiesSection2Heading',
       type: 'text',
@@ -189,6 +195,18 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: 'Nineties: Section 4 Quote 1',
+      name: 'ninetiesSection4Quote1',
+      type: 'blockquote',
+      validation: Rule => Rule.required()
+    },
+    {
+      title: 'Ninteies: Section 4 Quote 2',
+      name: 'ninetiesSection4Quote2',
+      type: 'blockquote',
+      validation: Rule => Rule.required()
+    },
+    {
       title: 'Nineties: Section 4 Quote Heading',
       name: 'ninetiesSection4QuoteHeading',
       type: 'text',
@@ -238,6 +256,30 @@ export default {
       name: 'noughtiesSection1Text',
       type: 'array', 
       of: [{type: 'block'}],
+      validation: Rule => Rule.required()
+    },
+    {
+      title: 'Noughties: Section 1 Quote Heading',
+      name: 'noughtiesSection1QuoteHeading',
+      type: 'text',
+      validation: Rule => Rule.required()
+    },
+    {
+      title: 'Noughties: Section 1 Quote Author',
+      name: 'noughtiesSection1QuoteAuthor',
+      type: 'string',
+      validation: Rule => Rule.required()
+    },
+    {
+      title: 'Noughties: Section 1 Quote Author Title',
+      name: 'noughtiesSection1QuoteAuthorTitle',
+      type: 'string',
+      validation: Rule => Rule.required()
+    },
+    {
+      title: 'Noughties: Section 1 Quote',
+      name: 'noughtiesSection1Quote',
+      type: 'blockquote',
       validation: Rule => Rule.required()
     },
     {

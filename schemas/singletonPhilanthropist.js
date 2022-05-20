@@ -85,6 +85,12 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: 'Section 6 Quote',
+      name: 'section6Quote',
+      type: 'blockquote',
+      validation: Rule => Rule.required()
+    },
+    {
       title: 'SEO / Share Settings',
       name: 'seo',
       type: 'seo'
