@@ -77,6 +77,13 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: 'Seventies: Section 1 Text',
+      name: 'seventiesSection1Text',
+      type: 'array', 
+      of: [{type: 'block'}],
+      validation: Rule => Rule.required()
+    },
+    {
       title: 'Seventies: Section 1 Image',
       name: 'seventiesSection1Image',
       type: 'defaultImage',
