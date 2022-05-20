@@ -83,19 +83,6 @@ export default {
       validation: Rule => Rule.required()
     },
     {
-      title: 'Seventies: Section 1 Text',
-      name: 'seventiesSection1Text',
-      type: 'array', 
-      of: [{type: 'block'}],
-      validation: Rule => Rule.required()
-    },
-    {
-      title: 'Seventies: Section 1 Quote',
-      name: 'seventiesSection1Quote',
-      type: 'blockquote',
-      validation: Rule => Rule.required()
-    },
-    {
       title: 'Seventies: Section 2 Heading',
       name: 'seventiesSection2Heading',
       type: 'text',
@@ -203,6 +190,12 @@ export default {
     {
       title: 'Ninteies: Section 4 Quote 2',
       name: 'ninetiesSection4Quote2',
+      type: 'blockquote',
+      validation: Rule => Rule.required()
+    },
+    {
+      title: 'Nineties: Section 4 Quote 3',
+      name: 'ninetiesSection4Quote3',
       type: 'blockquote',
       validation: Rule => Rule.required()
     },
