@@ -129,6 +129,12 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: 'Eighties: Section 1 Image 2',
+      name: 'eightiesSection1Image2',
+      type: 'defaultImage',
+      validation: Rule => Rule.required()
+    },
+    {
       title: 'Eighties: Section 1 Text',
       name: 'eightiesSection1Text',
       type: 'array', 
@@ -161,6 +167,12 @@ export default {
       name: 'ninetiesSection1TextRight',
       type: 'array', 
       of: [{type: 'block'}],
+      validation: Rule => Rule.required()
+    },
+    {
+      title: 'Nineties: Section 1 Image',
+      name: 'ninetiesSection1Image',
+      type: 'defaultImage',
       validation: Rule => Rule.required()
     },
     {
@@ -262,6 +274,12 @@ export default {
       name: 'noughtiesSection1Text',
       type: 'array', 
       of: [{type: 'block'}],
+      validation: Rule => Rule.required()
+    },
+    {
+      title: 'Noughties: Section 1 Quote Image',
+      name: 'noughtiesSection1QuoteImage',
+      type: 'defaultImage',
       validation: Rule => Rule.required()
     },
     {
