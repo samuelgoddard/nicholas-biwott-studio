@@ -261,6 +261,12 @@ export default {
       type: 'blockquote',
       validation: Rule => Rule.required()
     },
+    {
+      title: 'Nineties: Section 6 Video Embed',
+      name: 'ninetiesSection6VideoEmbed',
+      type: 'text',
+      validation: Rule => Rule.required()
+    },
 
     // Noughties
     {
