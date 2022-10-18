@@ -35,6 +35,19 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: 'Section 1.5 Heading',
+      name: 'section15Heading',
+      type: 'text',
+      validation: Rule => Rule.required()
+    },
+    {
+      title: 'Section 1.5 Text',
+      name: 'section15Text',
+      type: 'array', 
+      of: [{type: 'block'}],
+      validation: Rule => Rule.required()
+    },
+    {
       title: 'Section 2 Quote',
       name: 'section2Quote',
       type: 'blockquote',
@@ -56,6 +69,13 @@ export default {
       title: 'Section 3 Text',
       name: 'section3Text',
       type: 'array', 
+      of: [{type: 'block'}],
+      validation: Rule => Rule.required()
+    },
+    {
+      title: 'Section 4 Text',
+      name: 'section4Text',
+      type: 'array',
       of: [{type: 'block'}],
       validation: Rule => Rule.required()
     },

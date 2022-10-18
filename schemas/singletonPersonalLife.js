@@ -59,6 +59,12 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: 'Section 3 Video Caption',
+      name: 'section3VideoCaption',
+      type: 'text',
+      validation: Rule => Rule.required()
+    },
+    {
       title: 'Section 3 Quote',
       name: 'section3Quote',
       type: 'blockquote',

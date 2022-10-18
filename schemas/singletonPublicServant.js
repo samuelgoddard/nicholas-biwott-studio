@@ -267,6 +267,12 @@ export default {
       type: 'text',
       validation: Rule => Rule.required()
     },
+    {
+      title: 'Nineties: Section 6 Video Caption',
+      name: 'ninetiesSection6VideoCaption',
+      type: 'text',
+      validation: Rule => Rule.required()
+    },
 
     // Noughties
     {
