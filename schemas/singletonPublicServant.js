@@ -176,6 +176,12 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: 'Nineties: Section 1.5 Quote',
+      name: 'ninetiesSection15Quote',
+      type: 'blockquote',
+      validation: Rule => Rule.required()
+    },
+    {
       title: 'Nineties: Section 2 Quote',
       name: 'ninetiesSection2Quote',
       type: 'blockquote',
